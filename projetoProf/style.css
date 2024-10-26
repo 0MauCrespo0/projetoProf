@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+}
+menu{
+    background-color: #260d61;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+a.menu-iten{
+    color: #f1f1f1
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
