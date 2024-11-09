@@ -1,0 +1,11 @@
+body{background-color: rgba(206, 206, 206, 0.897);
+}
+.ladoalado{
+    background-color: rgba(48, 117, 91, 0.438);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 15px;
+}
