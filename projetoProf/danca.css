@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(163, 193, 226, 0.685);
+}
+
+.caixa1{
+    padding:15px;
+    background-color: #a0b6f3e1;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
