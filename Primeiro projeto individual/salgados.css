@@ -1,0 +1,32 @@
+body{background-color: rgba(206, 206, 206, 0.897);
+}
+.ladoalado{
+    background-color: rgba(48, 117, 91, 0.438);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 15px;
+}
+footer{
+    background-color: #260d61;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
+menu{
+    background-color: #9db1bd;
+    padding: 2px;/**Adiciona espaço ao redor do conteudo do menu**/
+    text-align:center;/**Alinhamento do texto**/
+    display: flex;/**usa um layout flexivel para alinhar os elementos**/
+    justify-content: center;/**alinha elementos horizontalmente**/
+    gap: 2rem;/**define a distancia entre os elemnentos**/
+    height: 50px;
+    width: 100%;
+    position:absolute;
+    z-index: 2;
+    margin-top: 0;
+}

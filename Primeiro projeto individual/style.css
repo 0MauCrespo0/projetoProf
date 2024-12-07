@@ -1,0 +1,92 @@
+body{
+    /**Definir a cor de fundo de um elemento, no nosso caso é a cor de fundo da tela**/
+    background-color: aliceblue;
+}
+menu{
+    background-color: #9db1bd;
+    padding: 10px;/**Adiciona espaço ao redor do conteudo do menu**/
+    text-align: center;/**Alinhamento do texto**/
+    display: flex;/**usa um layout flexivel para alinhar os elementos**/
+    justify-content: center;/**alinha elementos horizontalmente**/
+    gap: 2rem;/**define a distancia entre os elemnentos**/
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    margin-top: 0;
+}
+/**Estilizando o elemento pela classe com o caracter antes do nome da classe**/
+.menu-item{
+    color: #9968e7; /**define cor do elememto**/
+    text-decoration: none;/**retira trao de link da palravra**/
+    padding: 10px 20px;
+    font-size: 18px;/**define o tamanho do texto**/
+    display: inline-block;/**deixa o item como bloco em uma linha**/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/**hover é um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento. Abaixo aplicamos um evento de mouse no nosso menu**/
+.menu-item:hover{
+    /*quando colocarmos o mouse sob o elemento iremos*/
+    background-color:  rgba(13, 180, 116, 0.438); /*trocar a cor de */
+    color:rgb(246, 253, 253);
+    width: 220px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration:none;
+
+}
+.ladoalado{
+    background-color: rgba(48, 117, 91, 0.438);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 15px;
+}
+.carrousel-inner{
+    position: relative;/*ao mover o elemento, ele não interfere nos outros elementos ao seu redor*/
+}
+.carrousel-control-prev, .carrousel-control-next{
+    position: absolute;/*posicionna um elemento em relação ap elemento pai mais prox*/
+    top: 50%;/*posiciona a 50% da altura do elemento filho*/
+    transform: translateY(-50%);/**/
+    width: 5%;/*ajuste da largura das setas*/
+    z-index: 1;/*garante que fiquem sobre a imagem*/
+    background-color: rgb(0, 0, 0, 0.5);
+
+}
+#carouselTeatro{
+    width: 60% ;
+    height:60% ;
+}
+#carouselTeatro2{
+    width: 60% ;
+    height:60% ;
+}
+#carouselTeatro3{
+    width: 60% ;
+    height:60% ;
+}
+
+body{
+    background-color:rgba(75, 115, 134, 0.733) ;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+footer{
+    background-color: #260d61;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
