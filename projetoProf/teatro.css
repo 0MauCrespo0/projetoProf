@@ -2,33 +2,45 @@
 
 body{
     /**Definir a cor de fundo de um elemento, no nosso caso é a cor de fundo da tela**/
-    background-color: aliceblue;
+    background-color: rgba(82, 169, 172, 0.788);
+    
 }
 menu{
-    background-color: #9a87c7;
-    padding: 10px;/**Adiciona espaço ao redor do conteudo do menu**/
-    text-align: center;/**Alinhamento do texto**/
-    display: flex;/**usa um layout flexivel para alinhar os elementos**/
-    justify-content: center;/**alinha elementos horizontalmente**/
-    gap: 2rem;/**define a distancia entre os elemnentos**/
+    background-color: #260d61;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    width:100%;
+    z-index:1000;
+    margin: 0;
 }
-/**Estilizando o elemento pela classe com o caracter antes do nome da classe**/
-.menu-itens{
-    color: #5b34b6; /**define cor do elememto**/
-    text-decoration: none;/**retira trao de link da palravra**/
-    padding: 10px 20px;
-    font-size: 18px;/**define o tamanho do texto**/
-    display: inline-block;/**deixa o item como bloco em uma linha**/
-}
-/**hover é um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento. Abaixo aplicamos um evento de mouse no nosso menu**/
-.menu:hover{
-    /*quando colocarmos o mouse sob o elemento iremos*/
-    background-color: beige; /*trocar a cor de */
-    color:azure;
-    width: 220px;
-    padding: 15px 25px;
-    border-radius: 8px;
+.fixed{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    
 
+}
+.menu-item{
+    color:burlywood;
+    text-decoration:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+#telainicial{
+    margin-bottom: 0;
+}
+.menu-item:hover{
+    color: #f1f1f19c;
+    background-color:rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 15px 25px;
 }
 .caixa1{
     background-color: bisque;
@@ -62,5 +74,9 @@ menu{
 #carouselTeatro3{
     width: 60% ;
     height:60% ;
+}
+h1{
+    text-align: center;
+    
 }
 
