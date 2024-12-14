@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(160, 191, 224, 0.685);
+}
+
+.caixa1{
+    padding:15px;
+    background-color: #cfb27be1;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+menu{
+    background-color: #260d61;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    width:100%;
+    z-index:1000;
+    margin: 0;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    
+
+}
+.menu-item{
+    color:burlywood;
+    text-decoration:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+#telainicial{
+    margin-bottom: 0;
+}
+.menu-item:hover{
+    color: #f1f1f19c;
+    background-color:rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+h1{
+    text-align: center;
+}
